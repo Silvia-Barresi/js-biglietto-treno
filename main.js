@@ -57,7 +57,7 @@ if (quantiAnni <18){
 } else if (quantiAnni >65){
   msg= "Il prezzo del biglietto è:" + totaleOver;
 } else if (quantiAnni >=18 || quantiAnni <=65){
-  msg= "Il prezzo del biglietto è:" + prezzoBiglietto;
+  msg= "Il prezzo del biglietto è: " + prezzoBiglietto;
 }
 
 // output
