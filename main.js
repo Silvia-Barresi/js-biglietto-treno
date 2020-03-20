@@ -53,11 +53,11 @@ console.log("Totale per over:" + totaleOver);
 // condizione
 
 if (quantiAnni <18){
-  msg= "Il prezzo del biglietto è:" + totaleMinorenni;
+  msg= "Il prezzo del biglietto è:" + totaleMinorenni.toFixed(2);
 } else if (quantiAnni >65){
-  msg= "Il prezzo del biglietto è:" + totaleOver;
+  msg= "Il prezzo del biglietto è:" + totaleOver.toFixed(2);
 } else if (quantiAnni >=18 || quantiAnni <=65){
-  msg= "Il prezzo del biglietto è: " + prezzoBiglietto;
+  msg= "Il prezzo del biglietto è: " + prezzoBiglietto.toFixed(2);
 }
 
 // output
